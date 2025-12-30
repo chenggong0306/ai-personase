@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 本地数据（由 docker-compose 挂载）
+data/
+
+# Git
+.git/
+.gitignore
+
+# 日志
+logs/
+*.log
+
+# 其他
+*.docx
+.DS_Store
+

@@ -1,0 +1,73 @@
+/* 对话历史页面样式_lyl */
+
+.history-page_lyl {
+  padding: 24px;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+.history-page_lyl .page-header_lyl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.history-page_lyl .page-header_lyl h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.history-card_lyl {
+  border-radius: 8px;
+}
+
+.history-item_lyl {
+  padding: 16px !important;
+  transition: background 0.2s;
+}
+
+.history-item_lyl:hover {
+  background: #fafafa;
+}
+
+.history-icon_lyl {
+  font-size: 24px;
+  color: #667eea;
+}
+
+.history-modal_lyl .messages-preview_lyl {
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 16px;
+}
+
+.preview-message_lyl {
+  margin-bottom: 16px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.preview-message_lyl.user {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+}
+
+.preview-message_lyl.assistant {
+  background: #f5f5f5;
+}
+
+.preview-role_lyl {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.preview-content_lyl {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre-wrap;
+}
+

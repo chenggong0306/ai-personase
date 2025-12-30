@@ -1,0 +1,47 @@
+/* 知识库管理页面样式_lyl */
+
+.knowledge-page_lyl {
+  padding: 24px;
+  background: #f0f2f5;
+  min-height: 100vh;
+}
+
+.page-header_lyl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.page-header_lyl h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.stats-row_lyl {
+  margin-bottom: 24px;
+}
+
+.stats-row_lyl .ant-card {
+  border-radius: 8px;
+}
+
+.file-types_lyl {
+  text-align: center;
+}
+
+.file-types_lyl .stat-title {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.file-types_lyl .tags-container {
+  min-height: 32px;
+}
+
+.table-card_lyl {
+  border-radius: 8px;
+}
+

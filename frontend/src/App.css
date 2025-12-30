@@ -1,0 +1,42 @@
+/* 主应用样式_lyl */
+
+.app-layout_lyl {
+  min-height: 100vh;
+}
+
+.app-sider_lyl {
+  border-right: 1px solid #e8e8e8;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.logo_lyl {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-bottom: 1px solid #e8e8e8;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.logo-icon {
+  font-size: 24px;
+}
+
+.logo-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.app-menu_lyl {
+  margin-top: 8px;
+}
+
+.app-menu_lyl .ant-menu-item-selected {
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%) !important;
+}
+
+.app-content_lyl {
+  background: #f0f2f5;
+}

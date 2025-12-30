@@ -1,0 +1,124 @@
+/* 聊天页面样式_lyl */
+
+.chat-page_lyl {
+  display: flex;
+  height: 100vh;
+  background: #f0f2f5;
+}
+
+.chat-page_lyl.no-sidebar {
+  /* 无侧边栏布局 */
+}
+
+
+
+.chat-main_lyl {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  min-width: 0;
+}
+
+.chat-main_lyl.full-width {
+  max-width: 100%;
+}
+
+.chat-header_lyl {
+  height: 64px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e8e8e8;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  box-sizing: border-box;
+}
+
+.chat-header_lyl h2 {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.messages-container_lyl {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 0;
+  background: #fafafa;
+}
+
+.welcome-message_lyl {
+  text-align: center;
+  padding: 60px 40px;
+  color: #666;
+}
+
+.welcome-message_lyl h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.welcome-message_lyl p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* ===== 抽屉内参考来源卡片样式 ===== */
+
+.source-card_lyl {
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.source-card_lyl:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.source-card_lyl.highlighted {
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.3);
+  animation: pulse_lyl 0.5s ease;
+}
+
+@keyframes pulse_lyl {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+.source-title_lyl {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.source-id_lyl {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.source-preview_lyl {
+  font-size: 12px;
+  color: #666;
+  line-height: 1.6;
+  max-height: 200px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* 工具调用容器样式 */
+.tool-calls-container_lyl {
+  padding: 12px 16px;
+  max-width: 800px;
+}
+

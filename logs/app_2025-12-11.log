@@ -1,0 +1,175 @@
+2025-12-11 09:42:20 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 09:42:20 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 09:42:20 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 09:42:26 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 09:42:26 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 09:42:26 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 09:43:04 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 09:43:04 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 09:43:04 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 09:43:11 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 09:43:11 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 09:43:11 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 09:43:18 | INFO     | backend.app.api.chat:send_message_stream_lyl:32 - 收到流式聊天请求，conversation_id: None
+2025-12-11 09:43:18 | INFO     | backend.app.api.chat:send_message_stream_lyl:38 - 创建新对话...
+2025-12-11 09:43:18 | INFO     | backend.app.api.chat:send_message_stream_lyl:45 - 新对话创建成功，ID: 7
+2025-12-11 09:43:18 | DEBUG    | backend.app.api.chat:send_message_stream_lyl:51 - 用户消息已保存
+2025-12-11 09:43:18 | INFO     | backend.app.api.chat:send_message_stream_lyl:99 - 返回SSE流式响应
+2025-12-11 09:43:18 | INFO     | backend.app.services.agent_service:chat_stream_lyl:112 - 开始流式对话，消息长度: 11，使用知识库: True
+2025-12-11 09:43:18 | INFO     | backend.app.services.agent_service:create_agent_lyl:69 - 正在创建 Agent 实例...
+2025-12-11 09:43:18 | INFO     | backend.app.services.agent_service:get_model_lyl:56 - 正在创建 DeepSeek 模型实例...
+2025-12-11 09:43:24 | SUCCESS  | backend.app.services.agent_service:get_model_lyl:63 - DeepSeek 模型实例创建成功
+2025-12-11 09:43:24 | DEBUG    | backend.app.services.agent_service:create_agent_lyl:72 - 加载了 1 个工具
+2025-12-11 09:43:24 | SUCCESS  | backend.app.services.agent_service:create_agent_lyl:80 - Agent 实例创建成功
+2025-12-11 09:43:24 | DEBUG    | backend.app.services.agent_service:chat_stream_lyl:123 - 消息历史数量: 0
+2025-12-11 09:43:24 | INFO     | backend.app.services.agent_service:chat_stream_lyl:129 - 开始流式获取 AI 回复 (astream_events)...
+2025-12-11 09:43:27 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': '课程设计要求'}
+2025-12-11 09:43:27 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: 课程设计要求...
+2025-12-11 09:43:27 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 09:43:27 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 09:43:46 | INFO     | backend.app.services.agent_service:chat_stream_lyl:185 - 返回 3 个引用来源
+2025-12-11 09:43:46 | SUCCESS  | backend.app.services.agent_service:chat_stream_lyl:193 - 流式对话完成，响应长度: 1006
+2025-12-11 09:43:46 | INFO     | backend.app.api.chat:generate_stream_lyl:97 - AI回复已保存，长度: 1006
+2025-12-11 09:58:47 | INFO     | backend.app.api.chat:send_message_stream_lyl:32 - 收到流式聊天请求，conversation_id: None
+2025-12-11 09:58:47 | INFO     | backend.app.api.chat:send_message_stream_lyl:38 - 创建新对话...
+2025-12-11 09:58:47 | INFO     | backend.app.api.chat:send_message_stream_lyl:45 - 新对话创建成功，ID: 8
+2025-12-11 09:58:47 | DEBUG    | backend.app.api.chat:send_message_stream_lyl:51 - 用户消息已保存
+2025-12-11 09:58:47 | INFO     | backend.app.api.chat:send_message_stream_lyl:99 - 返回SSE流式响应
+2025-12-11 09:58:47 | INFO     | backend.app.services.agent_service:chat_stream_lyl:112 - 开始流式对话，消息长度: 2，使用知识库: True
+2025-12-11 09:58:47 | DEBUG    | backend.app.services.agent_service:chat_stream_lyl:123 - 消息历史数量: 0
+2025-12-11 09:58:47 | INFO     | backend.app.services.agent_service:chat_stream_lyl:129 - 开始流式获取 AI 回复 (astream_events)...
+2025-12-11 09:58:49 | SUCCESS  | backend.app.services.agent_service:chat_stream_lyl:193 - 流式对话完成，响应长度: 61
+2025-12-11 09:58:49 | INFO     | backend.app.api.chat:generate_stream_lyl:97 - AI回复已保存，长度: 61
+2025-12-11 10:00:02 | INFO     | backend.app.api.knowledge:upload_document_lyl:36 - 收到文件上传请求: RAG的文本加载.pdf
+2025-12-11 10:00:02 | DEBUG    | backend.app.api.knowledge:upload_document_lyl:49 - 文件大小: 197172 bytes
+2025-12-11 10:00:02 | DEBUG    | backend.app.api.knowledge:upload_document_lyl:53 - 文件已保存: data\documents\20251211_100002_RAG的文本加载.pdf
+2025-12-11 10:00:03 | INFO     | backend.app.api.knowledge:upload_document_lyl:60 - 文档分割完成，共 12 个块
+2025-12-11 10:00:04 | INFO     | backend.app.api.knowledge:upload_document_lyl:64 - 文档已添加到向量存储
+2025-12-11 10:00:04 | SUCCESS  | backend.app.api.knowledge:upload_document_lyl:75 - 文档上传成功: RAG的文本加载.pdf, ID: 2
+2025-12-11 10:00:17 | INFO     | backend.app.api.chat:send_message_stream_lyl:32 - 收到流式聊天请求，conversation_id: None
+2025-12-11 10:00:17 | INFO     | backend.app.api.chat:send_message_stream_lyl:38 - 创建新对话...
+2025-12-11 10:00:17 | INFO     | backend.app.api.chat:send_message_stream_lyl:45 - 新对话创建成功，ID: 9
+2025-12-11 10:00:17 | DEBUG    | backend.app.api.chat:send_message_stream_lyl:51 - 用户消息已保存
+2025-12-11 10:00:17 | INFO     | backend.app.api.chat:send_message_stream_lyl:99 - 返回SSE流式响应
+2025-12-11 10:00:17 | INFO     | backend.app.services.agent_service:chat_stream_lyl:112 - 开始流式对话，消息长度: 10，使用知识库: True
+2025-12-11 10:00:17 | DEBUG    | backend.app.services.agent_service:chat_stream_lyl:123 - 消息历史数量: 0
+2025-12-11 10:00:17 | INFO     | backend.app.services.agent_service:chat_stream_lyl:129 - 开始流式获取 AI 回复 (astream_events)...
+2025-12-11 10:00:21 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': '文件列表 所有文档'}
+2025-12-11 10:00:21 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: 文件列表 所有文档...
+2025-12-11 10:00:21 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 10:00:21 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 10:00:29 | INFO     | backend.app.services.agent_service:chat_stream_lyl:185 - 返回 3 个引用来源
+2025-12-11 10:00:29 | SUCCESS  | backend.app.services.agent_service:chat_stream_lyl:193 - 流式对话完成，响应长度: 447
+2025-12-11 10:00:29 | INFO     | backend.app.api.chat:generate_stream_lyl:97 - AI回复已保存，长度: 447
+2025-12-11 10:03:05 | INFO     | backend.app.api.chat:send_message_stream_lyl:32 - 收到流式聊天请求，conversation_id: None
+2025-12-11 10:03:05 | INFO     | backend.app.api.chat:send_message_stream_lyl:38 - 创建新对话...
+2025-12-11 10:03:05 | INFO     | backend.app.api.chat:send_message_stream_lyl:45 - 新对话创建成功，ID: 10
+2025-12-11 10:03:05 | DEBUG    | backend.app.api.chat:send_message_stream_lyl:51 - 用户消息已保存
+2025-12-11 10:03:05 | INFO     | backend.app.api.chat:send_message_stream_lyl:99 - 返回SSE流式响应
+2025-12-11 10:03:05 | INFO     | backend.app.services.agent_service:chat_stream_lyl:112 - 开始流式对话，消息长度: 8，使用知识库: True
+2025-12-11 10:03:05 | DEBUG    | backend.app.services.agent_service:chat_stream_lyl:123 - 消息历史数量: 0
+2025-12-11 10:03:05 | INFO     | backend.app.services.agent_service:chat_stream_lyl:129 - 开始流式获取 AI 回复 (astream_events)...
+2025-12-11 10:03:08 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': '知识库内容 文档 文件'}
+2025-12-11 10:03:08 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: 知识库内容 文档 文件...
+2025-12-11 10:03:09 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 10:03:09 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 10:03:18 | INFO     | backend.app.services.agent_service:chat_stream_lyl:185 - 返回 3 个引用来源
+2025-12-11 10:03:18 | SUCCESS  | backend.app.services.agent_service:chat_stream_lyl:193 - 流式对话完成，响应长度: 579
+2025-12-11 10:03:18 | INFO     | backend.app.api.chat:generate_stream_lyl:97 - AI回复已保存，长度: 579
+2025-12-11 10:04:57 | INFO     | backend.app.api.chat:send_message_stream_lyl:32 - 收到流式聊天请求，conversation_id: None
+2025-12-11 10:04:57 | INFO     | backend.app.api.chat:send_message_stream_lyl:38 - 创建新对话...
+2025-12-11 10:04:57 | INFO     | backend.app.api.chat:send_message_stream_lyl:45 - 新对话创建成功，ID: 11
+2025-12-11 10:04:57 | DEBUG    | backend.app.api.chat:send_message_stream_lyl:51 - 用户消息已保存
+2025-12-11 10:04:57 | INFO     | backend.app.api.chat:send_message_stream_lyl:99 - 返回SSE流式响应
+2025-12-11 10:04:57 | INFO     | backend.app.services.agent_service:chat_stream_lyl:112 - 开始流式对话，消息长度: 8，使用知识库: True
+2025-12-11 10:04:57 | DEBUG    | backend.app.services.agent_service:chat_stream_lyl:123 - 消息历史数量: 0
+2025-12-11 10:04:57 | INFO     | backend.app.services.agent_service:chat_stream_lyl:129 - 开始流式获取 AI 回复 (astream_events)...
+2025-12-11 10:05:00 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': '知识库内容 文档 文件'}
+2025-12-11 10:05:00 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: 知识库内容 文档 文件...
+2025-12-11 10:05:00 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 10:05:00 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 10:05:04 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': '课程 项目 设计 要求'}
+2025-12-11 10:05:04 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: 课程 项目 设计 要求...
+2025-12-11 10:05:05 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 10:05:05 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 10:05:17 | INFO     | backend.app.services.agent_service:chat_stream_lyl:185 - 返回 3 个引用来源
+2025-12-11 10:05:17 | SUCCESS  | backend.app.services.agent_service:chat_stream_lyl:193 - 流式对话完成，响应长度: 833
+2025-12-11 10:05:17 | INFO     | backend.app.api.chat:generate_stream_lyl:97 - AI回复已保存，长度: 833
+2025-12-11 10:24:52 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 10:24:53 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 10:24:53 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 10:24:59 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 10:24:59 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 10:24:59 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 10:27:31 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 10:27:32 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 10:27:32 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 10:27:37 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 10:27:37 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 10:27:37 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 10:30:37 | INFO     | backend.app.api.chat:send_message_stream_lyl:32 - 收到流式聊天请求，conversation_id: 11
+2025-12-11 10:30:37 | DEBUG    | backend.app.api.chat:send_message_stream_lyl:51 - 用户消息已保存
+2025-12-11 10:30:37 | INFO     | backend.app.api.chat:send_message_stream_lyl:99 - 返回SSE流式响应
+2025-12-11 10:30:37 | INFO     | backend.app.services.agent_service:chat_stream_lyl:112 - 开始流式对话，消息长度: 9，使用知识库: True
+2025-12-11 10:30:37 | INFO     | backend.app.services.agent_service:create_agent_lyl:69 - 正在创建 Agent 实例...
+2025-12-11 10:30:37 | INFO     | backend.app.services.agent_service:get_model_lyl:56 - 正在创建 DeepSeek 模型实例...
+2025-12-11 10:30:42 | SUCCESS  | backend.app.services.agent_service:get_model_lyl:63 - DeepSeek 模型实例创建成功
+2025-12-11 10:30:42 | DEBUG    | backend.app.services.agent_service:create_agent_lyl:72 - 加载了 1 个工具
+2025-12-11 10:30:42 | SUCCESS  | backend.app.services.agent_service:create_agent_lyl:80 - Agent 实例创建成功
+2025-12-11 10:30:42 | DEBUG    | backend.app.services.agent_service:chat_stream_lyl:123 - 消息历史数量: 2
+2025-12-11 10:30:42 | INFO     | backend.app.services.agent_service:chat_stream_lyl:129 - 开始流式获取 AI 回复 (astream_events)...
+2025-12-11 10:30:46 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': 'RAG 检索增强生成 技术 原理'}
+2025-12-11 10:30:46 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: RAG 检索增强生成 技术 原理...
+2025-12-11 10:30:46 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 10:30:46 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 10:30:50 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': 'RAG 文本加载 文档处理 LangChain'}
+2025-12-11 10:30:50 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: RAG 文本加载 文档处理 LangChain...
+2025-12-11 10:30:51 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 10:30:51 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 10:30:54 | INFO     | backend.app.services.agent_service:chat_stream_lyl:154 - 工具开始调用: knowledge_base_search_lyl, 参数: {'query': '加载器 文档处理 文本处理 技术'}
+2025-12-11 10:30:54 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:31 - RAG工具: 开始搜索知识库，query: 加载器 文档处理 文本处理 技术...
+2025-12-11 10:30:55 | INFO     | backend.app.services.rag_tool:search_knowledge_base_async_lyl:40 - RAG工具: 找到 3 个相关文档
+2025-12-11 10:30:55 | INFO     | backend.app.services.agent_service:chat_stream_lyl:170 - 工具调用结束: knowledge_base_search_lyl
+2025-12-11 10:31:12 | INFO     | backend.app.services.agent_service:chat_stream_lyl:185 - 返回 3 个引用来源
+2025-12-11 10:31:12 | SUCCESS  | backend.app.services.agent_service:chat_stream_lyl:193 - 流式对话完成，响应长度: 1240
+2025-12-11 10:31:12 | INFO     | backend.app.api.chat:generate_stream_lyl:97 - AI回复已保存，长度: 1240
+2025-12-11 10:35:35 | INFO     | backend.app.main:lifespan_lyl:35 - 👋 正在关闭系统...
+2025-12-11 10:35:35 | SUCCESS  | backend.app.main:lifespan_lyl:37 - ✅ 系统已安全关闭
+2025-12-11 10:35:38 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 10:35:38 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 10:35:38 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 10:35:45 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 10:35:45 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 10:35:45 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 10:38:04 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 10:38:05 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 10:38:05 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 10:38:10 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 10:38:10 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 10:38:10 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 10:47:41 | INFO     | backend.app.main:lifespan_lyl:35 - 👋 正在关闭系统...
+2025-12-11 10:47:41 | SUCCESS  | backend.app.main:lifespan_lyl:37 - ✅ 系统已安全关闭
+2025-12-11 10:47:44 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 10:47:45 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 10:47:45 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 10:47:51 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 10:47:51 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 10:47:51 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 10:49:14 | INFO     | backend.app.main:lifespan_lyl:35 - 👋 正在关闭系统...
+2025-12-11 10:49:14 | SUCCESS  | backend.app.main:lifespan_lyl:37 - ✅ 系统已安全关闭
+2025-12-11 10:49:18 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 10:49:18 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 10:49:18 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 10:49:24 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 10:49:24 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 10:49:24 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 10:49:24 | INFO     | backend.app.main:lifespan_lyl:35 - 👋 正在关闭系统...
+2025-12-11 10:49:24 | SUCCESS  | backend.app.main:lifespan_lyl:37 - ✅ 系统已安全关闭
+2025-12-11 10:49:27 | INFO     | backend.app.services.agent_service:__init__:51 - AgentService 初始化完成
+2025-12-11 10:49:28 | INFO     | backend.app.main:lifespan_lyl:19 - 🚀 正在启动个性化知识问答系统...
+2025-12-11 10:49:28 | SUCCESS  | backend.app.main:lifespan_lyl:23 - ✅ 数据库初始化完成
+2025-12-11 10:49:33 | SUCCESS  | backend.app.main:lifespan_lyl:27 - ✅ 向量存储初始化完成
+2025-12-11 10:49:33 | INFO     | backend.app.main:lifespan_lyl:29 - 🌟 个性化知识问答系统 v1.0.0 启动成功!
+2025-12-11 10:49:34 | INFO     | backend.app.main:lifespan_lyl:30 - 📖 API文档: http://localhost:8000/docs
+2025-12-11 11:08:53 | INFO     | backend.app.main:lifespan_lyl:35 - 👋 正在关闭系统...
+2025-12-11 11:08:53 | SUCCESS  | backend.app.main:lifespan_lyl:37 - ✅ 系统已安全关闭
